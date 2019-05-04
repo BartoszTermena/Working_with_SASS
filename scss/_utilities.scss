@@ -27,6 +27,9 @@
     color: $primary-color;
 }
 
+.round-img {
+    border-radius: 50%;
+}
 .bg {
     &-primary {
         @include set-background($primary-color)
